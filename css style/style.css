@@ -1,0 +1,44 @@
+/*index*/
+body {
+    font-family: 'Arima', cursive; font-size: 18px;
+}
+*{
+ box-sizing: border-box;
+}
+body{
+ margin: 0;
+ background: gray;
+}
+nav{
+ background: black
+ width=100%;
+ overflow:auto ;
+}
+ul{
+ margin:0;
+   padding:0;
+ list-style:none;
+}
+li{
+ float:left;
+}
+nav a{
+ width:220px;
+ display:block;
+ text-decoration:none;
+ text-align:center;
+ background:#65350f;
+ font-size:17px;
+ color:white;
+ padding:20px 10px;
+ font-family:Arial;
+}
+nav a:hover{
+ background:#e18b6b;
+ color:black;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
